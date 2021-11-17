@@ -1,10 +1,13 @@
+.strong--more {
+    margin-left: 2rem;
+}
 .wrapper--titlenews{
     font-size: 22px;
     font-weight: 700;
 }
 .container--loc{
     width: 200px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .wrapper--loc {
     width: 200px;
@@ -18,6 +21,7 @@
 }
 .container--end{
     width: 200px;
+    margin-top: -10px;
 }
 .paragraph--end{
     margin-left: 2rem;

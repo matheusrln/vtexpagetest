@@ -1,12 +1,13 @@
-.nameContainer{
-    width: 220px;
-    height: 80px;
+.brandName {
+    font-size: 15px;
 }
 
-.element {
-    height: 400px;
+.image {
+    width: 150px;
+    height: 150px;
 }
-.price_sellingPrice--carousel{
-    color: black;
-    font-size: 18px;
+
+.productNameContainer{
+    width: 150px;
+    height: 50px;
 }
