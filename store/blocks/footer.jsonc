@@ -1,0 +1,231 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.col#mobile"
+    ]
+  },
+  "flex-layout.row#footer": { 
+    "children": [
+      "flex-layout.col#loc",
+      "flex-layout.col#btn",
+      "flex-layout.col#img"
+    ],
+    "props":{
+      "blockClass": "wrapperfooter"
+    }
+  },
+  "flex-layout.col#loc":{
+    "children":[
+      "rich-text#loc",
+      "button-bar",
+      "rich-text#end"
+    ],
+    "props":{
+      "blockClass": "loc"
+    }
+  },
+  "rich-text#loc": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "*Localização*",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "loc"
+    }
+  },
+  "rich-text#end": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Avenida Andromeda, 2000. Bloco 6 e 8 \n Alphavile SP \n brasil@corebiz.ag \n +55 11 3090 1039",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "end"
+    }
+  },
+  "flex-layout.col#btn": {
+    "children":[
+      "link#contact",
+      "link#speak"
+    ],
+    "props":{
+      "blockClass": "btn"
+    }
+  },
+  "rich-text#iconMail":{
+    "props":{
+      "text":"![Icon Mail](assets/img/mail.png)",
+      "blockClass":"footerIconMail"
+    }
+  },
+  "rich-text#iconPhone":{
+    "props":{
+      "text":"![Icon Phone](assets/img/headphone.png)",
+      "blockClass":"footerIconMail"
+    }
+  },
+  "link#contact": {
+    "children":[
+      
+    ],
+    "props": {
+      "href": "/",
+      "label": "Entre em contato",
+      "displayMode": "button",
+      "blockClass": "contact"
+    }
+  },
+  "link#speak": {
+    "children":[
+    ],
+    "props": {
+      "href": "/",
+      "label": "Fale com o nosso consultor online",
+      "displayMode": "button",
+      "blockClass": "speak"
+    }
+  },
+  "flex-layout.col#img": {
+    "children":[
+      "flex-layout.row#copy"
+    ],
+    "props":{
+      "blockClass": "img"
+    }
+  },
+  "flex-layout.row#copy":{
+    "children":[
+      "rich-text#corebiz",
+      "rich-text#vtex"
+    ],"props":{
+      "blockClass": "copy"
+    }
+  },
+  "rich-text#corebiz": {
+    "props": {
+      "text": "Created by \n [![Corebiz](assets/img/corebiz.png)](http://www.corebiz.ag)",
+      "blockClass": "core"
+    }
+  },
+  "rich-text#vtex": {
+    "props": {
+      "text": "Powered by \n [![Vtex](assets/img/Vtex.png)](http://www.vtex.com)",
+      "blockClass": "vtex"
+    }
+  },
+  "flex-layout.col#mobile": { 
+    "children": [
+        "flex-layout.row#locMobile",
+        "flex-layout.row#btnMobile",
+        "flex-layout.row#imgMobile"
+      ]
+  },
+  "flex-layout.row#locMobile":{
+    "children":[
+      "rich-text#locMobile",
+      "rich-text#endMobile"
+    ],
+    "props":{
+      "blockClass": "locMobile"
+    }
+  },
+  "rich-text#locMobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "*Localização*",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "loc"
+    }
+  },
+  "rich-text#endMobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Avenida Andromeda, 2000. Bloco 6 e 8 \n Alphavile SP \n brasil@corebiz.ag \n +55 11 3090 1039",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "end"
+    }
+  },
+  "flex-layout.row#btnMobile": {
+    "children":[
+      "link#contactMobile",
+      "link#speakMobile"
+    ],
+    "props":{
+      "blockClass": "btnMobile"
+    }
+  },
+  "rich-text#iconMailMobile":{
+    "props":{
+      "text":"![Icon Mail](assets/img/mail.png)",
+      "blockClass":"footerIconMail"
+    }
+  },
+  "rich-text#iconPhoneMobile":{
+    "props":{
+      "text":"![Icon Phone](assets/img/headphone.png)",
+      "blockClass":"footerIconMail"
+    }
+  },
+  "link#contactMobile": {
+    "children":[
+      
+    ],
+    "props": {
+      "href": "/",
+      "label": "Entre em contato",
+      "displayMode": "button",
+      "blockClass": "contact"
+    }
+  },
+  "link#speakMobile": {
+    "children":[
+    ],
+    "props": {
+      "href": "/",
+      "label": "Fale com o nosso consultor online",
+      "displayMode": "button",
+      "blockClass": "speak"
+    }
+  },
+  "flex-layout.row#imgMobile": {
+    "children":[
+      "flex-layout.row#copyMobile"
+    ],
+    "props":{
+      "blockClass": "img"
+    }
+  },
+  "flex-layout.row#copyMobile":{
+    "children":[
+      "rich-text#corebizMobile",
+      "rich-text#vtexMobile"
+    ],"props":{
+      "blockClass": "copy"
+    }
+  },
+  "rich-text#corebizMobile": {
+    "props": {
+      "text": "Created by \n [![Corebiz](assets/img/corebiz.png)](http://www.corebiz.ag)",
+      "blockClass": "core"
+    }
+  },
+  "rich-text#vtexMobile": {
+    "props": {
+      "text": "Powered by \n [![Vtex](assets/img/Vtex.png)](http://www.vtex.com)",
+      "blockClass": "vtex"
+    }
+  }
+}

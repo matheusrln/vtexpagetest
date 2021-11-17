@@ -1,0 +1,62 @@
+.wrapper--titlenews{
+    font-size: 22px;
+    font-weight: 700;
+}
+.container--loc{
+    width: 200px;
+    padding-top: 10px;
+}
+.wrapper--loc {
+    width: 200px;
+}
+.italic--loc {
+    margin-left: 2rem;
+    font-size: 20;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.container--end{
+    width: 200px;
+}
+.paragraph--end{
+    margin-left: 2rem;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+.wrapper--footerIconMail{
+    width: 30px;
+}
+.image--footerIconMail {
+    width: 25px;
+}
+
+.container--core{
+    background-color: black;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+.container--vtex {
+    background-color: black;
+    height: 180px;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+}
+.paragraph--core{
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+}
+.paragraph--vtex{
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+        
+}

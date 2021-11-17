@@ -1,0 +1,67 @@
+{
+    "slider-layout#home": {
+        "children": ["info-card#brand1", "info-card#brand2", "info-card#brand3", "info-card#brand4"],
+        "props": {
+            "itemsPerPage":{
+              "desktop": 1,
+              "tablet": 1,
+              "phone": 1
+            },
+            "autoplay": {
+            "timeout": 7000,
+            "stopOnHover": true
+            },
+          "showPaginationDots": "always",
+          "showNavigationArrows": "never"
+        }
+    },
+    "info-card#brand1":{
+        "props":{
+          "imageUrl":"assets/img/banner1.jpg",
+          "isFullModeStyle": true,
+          "headline": "Olá, oque você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "textColor": "white",
+          "callToActionMode": "none",
+          "textPosition": "left",
+          "textAlignment": "center"
+        }
+    },
+
+    "info-card#brand2":{
+        "props":{
+          "imageUrl":"assets/img/banner2.jpg",
+          "isFullModeStyle": true,
+          "headline": "Olá, oque você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "textColor": "white",
+          "callToActionMode": "none",
+          "textPosition": "left",
+          "textAlignment": "center"
+        }
+    },
+    "info-card#brand3":{
+        "props":{
+          "imageUrl":"assets/img/banner3.jpg",
+          "isFullModeStyle": true,
+          "headline": "Olá, oque você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "textColor": "white",
+          "callToActionMode": "none",
+          "textPosition": "left",
+          "textAlignment": "center"
+        }
+    },
+    "info-card#brand4":{
+        "props":{
+          "imageUrl":"assets/img/banner4.jpg",
+          "isFullModeStyle": true,
+          "headline": "Olá, oque você está buscando?",
+          "subhead": "Criar ou migrar seu e-commerce?",
+          "textColor": "white",
+          "callToActionMode": "none",
+          "textPosition": "left",
+          "textAlignment": "center"
+        }
+    }
+}

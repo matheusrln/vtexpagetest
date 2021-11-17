@@ -1,0 +1,15 @@
+.wrapperButton {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    height: 10px;
+    margin-top: -30px;
+}
+
+
+.barbutton {
+    width: 100px;
+    height: 10px;
+    background-color: #c0c0c0;
+    border: none;
+    border-radius: none;
+}

@@ -1,0 +1,85 @@
+{
+  "store.home": {
+    "blocks": [
+      "slider-layout#home",
+      "rich-text",
+      "button-bar",
+      "list-context.product-list",
+      "rich-text#newsletter",
+      "newsletter-form"
+    ]
+  },
+  "rich-text": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "left",
+    "text": "**Mais Vendidos**",
+    "textColor": "black",
+    "font": "t-heading-5",
+    "blockClass": "more"
+  }
+},
+"list-context.product-list": {
+    "props": {
+      "maxItems": 10,
+      "blockClass": "slidercarousel"
+},
+  "children": ["slider-layout#carousel"],
+    "blocks": ["product-summary.shelf"]
+},
+"slider-layout#carousel": {
+      "props": {
+          "itemsPerPage":{
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "autoplay": {
+            "timeout": 7000,
+            "stopOnHover": true
+          },
+          "showPaginationDots": "never",
+          "showNavigationArrows": "always",
+          "fullWidth": "false",
+          "blockClass": "carousel"
+      }
+  },
+
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-selling-price",
+      "add-to-cart-button",
+      "product-rating-inline"
+    ]
+  },
+  "product-selling-price": {
+    "props":{
+      "showSavings": true,
+      "showListPrice": true
+    }
+  },
+  "add-to-cart-button": {
+    "props":{
+      "text": "COMPRAR"
+    }
+  },
+  "rich-text#newsletter": {
+    "props": {
+      "blockClass":"titlenews",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "*Participe de nossas news com promoções e novidades!*",
+      "textColor": "black",
+      "font": "t-heading-5"
+    }
+  },
+
+  "newsletter-form": {
+    "children": ["flex-layout.row"],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  }  
+}

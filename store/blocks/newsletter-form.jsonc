@@ -1,0 +1,31 @@
+{
+    "flex-layout.row": {
+        "children": [
+          "newsletter-input-name",
+          "newsletter-input-email",
+          "newsletter-submit"
+        ],
+        "props": {
+          "blockClass": "newsletter"
+        }
+      },
+    
+      "newsletter-input-name":{
+        "props":{
+          "placeholderText":"Digite seu nome"
+        }
+      },
+    
+      "newsletter-input-email":{
+        "props":{
+          "placeholderText":"Digite seu email"
+        }
+      },
+    
+      "newsletter-submit": {
+        "props": {
+          "submitButtonLabel": "Eu quero!",
+          "blockClass": "submitButton"
+        }
+      }
+}

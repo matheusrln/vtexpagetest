@@ -1,0 +1,30 @@
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border: none;
+}
+
+.searchBarContainer {
+    margin: auto auto 20px auto;
+}
+
+.autoCompleteOuterContainer {
+    border-bottom: 2px solid #414040;
+}
+.infoCardContainer {
+    width: 100%;
+    height: 320px;
+}
+
+.searchIcon {
+    color: black;
+}
+
+.infoCardHeadline {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.infoCardSubhead {
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+}

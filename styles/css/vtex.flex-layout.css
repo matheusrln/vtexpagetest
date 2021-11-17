@@ -1,0 +1,34 @@
+.flexRowContent {
+    background-color: rgb(255, 255, 255);
+}
+
+.flexRowContent--wrapperfooter {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+}
+
+.flexRowContent--newsletter{
+    padding-top: 10px;
+    width: 60rem;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.flexCol--btn {
+    background-color: black;
+    margin: auto;
+}
+.flexColChild--btn{
+    margin: auto;
+}
+
+.flexCol--img{
+    display: flex;
+}
+
+.flexColChild--img{
+    align-items: center;
+    justify-content: center;
+}
