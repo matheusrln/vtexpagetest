@@ -70,6 +70,7 @@
 }
 .container--endMobile {
     background-color: black;
+    height: 100px;
 }
 
 .italic--locMobile {
@@ -87,25 +88,24 @@
 }
 .container--coreMobile{
     background-color: black;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+    height: 150px;
+    
 }
 .container--vtexMobile {
     background-color: black;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+    height: 50px;
 }
 .paragraph--coreMobile{
     font-size: 10px;
     font-weight: 400;
     color: white;
+    margin-left: 150px;
+    margin-top: 100px;
 }
 .paragraph--vtexMobile{
     font-size: 10px;
     font-weight: 400;
     color: white;
+    margin-left: 250px;
+    margin-top: -50px;
 }
