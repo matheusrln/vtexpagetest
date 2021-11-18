@@ -7,6 +7,10 @@
     height: 200px;
 }
 
+.flexRowContent--wrapperfooterMobile {
+    background-color: black;
+}
+
 .flexRowContent--newsletter{
     padding-top: 10px;
     width: 60rem;
@@ -31,4 +35,12 @@
 .flexColChild--img{
     align-items: center;
     justify-content: center;
+}
+
+.flexRow--btn {
+    background-color: black;
+}
+
+.flexRowContent--btnMobile {
+    background-color: black;
 }

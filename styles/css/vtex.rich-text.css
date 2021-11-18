@@ -64,3 +64,48 @@
 @media (max-width: 1024px) {
         
 }
+
+.container--locMobile {
+    background-color: black;
+}
+.container--endMobile {
+    background-color: black;
+}
+
+.italic--locMobile {
+    margin-left: 2rem;
+    font-size: 20;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.paragraph--endMobile{
+    margin-left: 2rem;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+.container--coreMobile{
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.container--vtexMobile {
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.paragraph--coreMobile{
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+}
+.paragraph--vtexMobile{
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+}

@@ -127,7 +127,11 @@
         "flex-layout.row#locMobile",
         "flex-layout.row#btnMobile",
         "flex-layout.row#imgMobile"
-      ]
+      ],
+      
+      "props":{
+        "blockClass": "wrapperfooterMobile"
+      }
   },
   "flex-layout.row#locMobile":{
     "children":[
@@ -145,7 +149,7 @@
       "text": "*Localização*",
       "textColor": "black",
       "font": "t-heading-5",
-      "blockClass": "loc"
+      "blockClass": "locMobile"
     }
   },
   "rich-text#endMobile": {
@@ -155,7 +159,7 @@
       "text": "Avenida Andromeda, 2000. Bloco 6 e 8 \n Alphavile SP \n brasil@corebiz.ag \n +55 11 3090 1039",
       "textColor": "black",
       "font": "t-heading-5",
-      "blockClass": "end"
+      "blockClass": "endMobile"
     }
   },
   "flex-layout.row#btnMobile": {
@@ -187,7 +191,7 @@
       "href": "/",
       "label": "Entre em contato",
       "displayMode": "button",
-      "blockClass": "contact"
+      "blockClass": "contactMobile"
     }
   },
   "link#speakMobile": {
@@ -197,7 +201,7 @@
       "href": "/",
       "label": "Fale com o nosso consultor online",
       "displayMode": "button",
-      "blockClass": "speak"
+      "blockClass": "speakMobile"
     }
   },
   "flex-layout.row#imgMobile": {
@@ -205,7 +209,7 @@
       "flex-layout.row#copyMobile"
     ],
     "props":{
-      "blockClass": "img"
+      "blockClass": "imgMobile"
     }
   },
   "flex-layout.row#copyMobile":{
@@ -213,19 +217,19 @@
       "rich-text#corebizMobile",
       "rich-text#vtexMobile"
     ],"props":{
-      "blockClass": "copy"
+      "blockClass": "copyMobile"
     }
   },
   "rich-text#corebizMobile": {
     "props": {
       "text": "Created by \n [![Corebiz](assets/img/corebiz.png)](http://www.corebiz.ag)",
-      "blockClass": "core"
+      "blockClass": "coreMobile"
     }
   },
   "rich-text#vtexMobile": {
     "props": {
       "text": "Powered by \n [![Vtex](assets/img/Vtex.png)](http://www.vtex.com)",
-      "blockClass": "vtex"
+      "blockClass": "vtexMobile"
     }
   }
 }

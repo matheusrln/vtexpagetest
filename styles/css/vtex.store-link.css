@@ -25,3 +25,31 @@
     font-weight: 600;
     color: black;
 }
+
+/**Mobile**/
+
+.label--contactMobile{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+.buttonLink--contactMobile{
+    
+    margin-top: 70px;
+    background-color: white;
+    border: none;
+}
+
+.buttonLink--speakMobile{
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+}
+.label--speakMobile{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
