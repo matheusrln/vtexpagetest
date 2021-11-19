@@ -51,12 +51,17 @@
 }
 
 .paragraph--footerIconMail{
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 .image--footerIconMail {
- 
+    margin-right: 8px;
+}
+
+.strong--footerIconMail{
+    line-height: 15px;
 }
 
 .container--core{

@@ -63,7 +63,7 @@
   },
   "rich-text#iconMail":{
     "props":{
-      "text":"![Icon Mail](assets/img/mail.png)   Entre em contato",
+      "text":"![Icon Mail](assets/img/mail.png)   **Entre em contato**",
       "blockClass":"footerIconMail",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
