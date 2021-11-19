@@ -59,6 +59,29 @@
 .image--footerIconMail {
     margin-right: 8px;
 }
+.wrapper--footerIconPhone{
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.strong--footerIconPhone {
+    width: 150px;
+}
+.paragraph--footerIconPhone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    line-height: 15px;
+}
+.image--footerIconPhone {
+    
+}
 
 .strong--footerIconMail{
     line-height: 15px;
@@ -112,6 +135,51 @@
     font-size: 13px;
     font-weight: 400;
     color: white;
+}
+.container--footerIconMailMobile{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100px;
+}
+.container--footerIconPhoneMobile{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.wrapper--footerIconMailMobile{
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper--footerIconPhoneMobile{
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.strong--footerIconPhoneMobile{
+    width: 150px;
+}
+.paragraph--footerIconPhoneMobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    line-height: 15px;
 }
 .container--coreMobile{
     background-color: black;

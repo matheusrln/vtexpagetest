@@ -55,7 +55,7 @@
   "flex-layout.col#btn": {
     "children":[
       "rich-text#iconMail",
-      "link#speak"
+      "rich-text#iconPhone"
     ],
     "props":{
       "blockClass": "btn"
@@ -64,35 +64,13 @@
   "rich-text#iconMail":{
     "props":{
       "text":"![Icon Mail](assets/img/mail.png)   **Entre em contato**",
-      "blockClass":"footerIconMail",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "blockClass":"footerIconMail"
     }
   },
   "rich-text#iconPhone":{
     "props":{
-      "text":"![Icon Phone](assets/img/headphone.png)",
-      "blockClass":"footerIconMail"
-    }
-  },
-  "link#contact": {
-    "children":[
-    ],
-    "props": {
-      "href": "/",
-      "label": "Entre em contato",
-      "displayMode": "button",
-      "blockClass": "contact"
-    }
-  },
-  "link#speak": {
-    "children":[
-    ],
-    "props": {
-      "href": "/",
-      "label": "Fale com o nosso consultor online",
-      "displayMode": "button",
-      "blockClass": "speak"
+      "text":"![Icon Phone](assets/img/headphone.png) **Fale com o nosso consultor online**",
+      "blockClass":"footerIconPhone"
     }
   },
   "flex-layout.col#img": {
@@ -165,8 +143,8 @@
   },
   "flex-layout.row#btnMobile": {
     "children":[
-      "link#contactMobile",
-      "link#speakMobile"
+      "rich-text#iconMailMobile",
+      "rich-text#iconPhoneMobile"
     ],
     "props":{
       "blockClass": "btnMobile"
@@ -174,35 +152,14 @@
   },
   "rich-text#iconMailMobile":{
     "props":{
-      "text":"![Icon Mail](assets/img/mail.png)",
-      "blockClass":"footerIconMail"
+      "text":"![Icon Mail](assets/img/mail.png) **Entre em contato**",
+      "blockClass":"footerIconMailMobile"
     }
   },
   "rich-text#iconPhoneMobile":{
     "props":{
-      "text":"![Icon Phone](assets/img/headphone.png)",
-      "blockClass":"footerIconMail"
-    }
-  },
-  "link#contactMobile": {
-    "children":[
-      
-    ],
-    "props": {
-      "href": "/",
-      "label": "Entre em contato",
-      "displayMode": "button",
-      "blockClass": "contactMobile"
-    }
-  },
-  "link#speakMobile": {
-    "children":[
-    ],
-    "props": {
-      "href": "/",
-      "label": "Fale com o nosso consultor online",
-      "displayMode": "button",
-      "blockClass": "speakMobile"
+      "text":"![Icon Phone](assets/img/headphone.png) **Fale com o nosso consultor online**",
+      "blockClass":"footerIconPhoneMobile"
     }
   },
   "flex-layout.row#imgMobile": {
