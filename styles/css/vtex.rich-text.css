@@ -1,6 +1,14 @@
 .strong--more {
     margin-left: 2rem;
 }
+.strong--more::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    border-bottom: 4px solid #C0C0C0;
+    display: block;
+    margin-left: 2rem;
+  }
 .wrapper--titlenews{
     font-size: 22px;
     font-weight: 700;
@@ -31,10 +39,24 @@
 }
 
 .wrapper--footerIconMail{
-    width: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    display: flex;
+}
+
+.paragraph--footerIconMail{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .image--footerIconMail {
-    width: 25px;
+ 
 }
 
 .container--core{

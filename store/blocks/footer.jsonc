@@ -54,7 +54,7 @@
   },
   "flex-layout.col#btn": {
     "children":[
-      "link#contact",
+      "rich-text#iconMail",
       "link#speak"
     ],
     "props":{
@@ -63,8 +63,10 @@
   },
   "rich-text#iconMail":{
     "props":{
-      "text":"![Icon Mail](assets/img/mail.png)",
-      "blockClass":"footerIconMail"
+      "text":"![Icon Mail](assets/img/mail.png)   Entre em contato",
+      "blockClass":"footerIconMail",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#iconPhone":{
@@ -75,7 +77,6 @@
   },
   "link#contact": {
     "children":[
-      
     ],
     "props": {
       "href": "/",
