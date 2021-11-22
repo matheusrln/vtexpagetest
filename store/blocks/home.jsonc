@@ -77,7 +77,7 @@
   },
 
   "newsletter-form": {
-    "children": ["flex-layout.row"],
+    "children": ["flex-layout.row#desktopNews"],
     "props": {
       "blockClass": "newsletter"
     }

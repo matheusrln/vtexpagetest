@@ -13,13 +13,14 @@
 
 .flexRowContent--newsletter{
     padding-top: 10px;
-    width: 60rem;
-    height: 80px;
-    margin: auto;
-    display: flex;
+    padding-bottom: 20px;
+    
     justify-content: center;
     gap: 0.5rem;
 }
+
+
+
 .flexCol--btn {
     background-color: black;
     margin: auto;
