@@ -47,6 +47,7 @@
 
   "product-summary.shelf": {
     "children": [
+      "test-flag",
       "product-summary-image",
       "product-summary-name",
       "product-selling-price",

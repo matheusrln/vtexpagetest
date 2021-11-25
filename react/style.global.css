@@ -13,3 +13,13 @@
     border: none;
     border-radius: none;
 }
+
+.wrapperImg {
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+
+.imagem {
+    width: 80px;
+}

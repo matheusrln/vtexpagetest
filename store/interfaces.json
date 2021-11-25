@@ -1,5 +1,8 @@
 {
     "button-bar": {
         "component": "buttonBar"
+    },
+    "test-flag": {
+        "component": "testFlag"
     }
 }

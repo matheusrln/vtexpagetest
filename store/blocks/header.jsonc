@@ -90,7 +90,29 @@
       "horizontalAlign": "center"
     }
   },
+
   "drawer": {
-    "children": []
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-clothing"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-clothing": {
+    "children":[
+      "rich-text#menuDrawer"
+    ]
+  },
+  "rich-text#menuDrawer":{
+    "props":{
+      "text": "Open Drawer"
+    }
   }
 }
